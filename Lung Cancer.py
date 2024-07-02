@@ -82,6 +82,5 @@ if st.checkbox('Train Model'):
     st.write('Classification Report:')
     st.write(classification_report(y_test, y_pred))
 
-# You can add more interactive elements or visualizations here as needed
 
 st.sidebar.info('This app performs lung cancer analysis and prediction using patient data.')
